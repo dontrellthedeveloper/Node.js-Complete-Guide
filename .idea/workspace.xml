@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3099e71-18a2-40fa-9da6-fdb3b0d9670e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/auth/new-password.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/auth/new-password.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/admin.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,7 +29,7 @@
         <counts>
           <entry key="css" value="10" />
           <entry key="ejs" value="59" />
-          <entry key="js" value="68" />
+          <entry key="js" value="69" />
           <entry key="json" value="4" />
         </counts>
       </usages-collector>
@@ -40,7 +38,7 @@
           <entry key="CSS" value="10" />
           <entry key="EJS" value="59" />
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="68" />
+          <entry key="JavaScript" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -86,11 +84,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/auth/new-password.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
+            <state relative-caret-position="184">
               <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controllers/admin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -132,15 +139,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/auth/login.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/middleware/is-auth.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
@@ -177,7 +175,6 @@
         <option value="$PROJECT_DIR$/views/shop/product-detail.ejs" />
         <option value="$PROJECT_DIR$/views/shop/product-list.ejs" />
         <option value="$PROJECT_DIR$/models/order.js" />
-        <option value="$PROJECT_DIR$/controllers/admin.js" />
         <option value="$PROJECT_DIR$/views/admin/edit-product.ejs" />
         <option value="$PROJECT_DIR$/public/css/main.css" />
         <option value="$PROJECT_DIR$/controllers/shop.js" />
@@ -190,6 +187,7 @@
         <option value="$PROJECT_DIR$/controllers/auth.js" />
         <option value="$PROJECT_DIR$/models/user.js" />
         <option value="$PROJECT_DIR$/views/auth/new-password.ejs" />
+        <option value="$PROJECT_DIR$/controllers/admin.js" />
       </list>
     </option>
   </component>
@@ -345,18 +343,18 @@
       <workItem from="1552713516599" duration="1177000" />
       <workItem from="1552716100479" duration="35197000" />
       <workItem from="1552962684888" duration="3583000" />
-      <workItem from="1553310132587" duration="14153000" />
+      <workItem from="1553310132587" duration="15128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56916000" />
+    <option name="totallyTimeSpent" value="57891000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1440" y="180" width="889" height="900" extended-state="6" />
+    <frame x="-1440" y="180" width="819" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16705069" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18170427" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -538,13 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2047">
-          <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/admin/edit-product.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
@@ -650,8 +641,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/auth/new-password.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
+        <state relative-caret-position="184">
           <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
         </state>
       </provider>
     </entry>
