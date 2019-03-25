@@ -152,7 +152,6 @@ exports.getOrders = (req, res, next) => {
         });
 };
 
-
 exports.getInvoice = (req, res, next) => {
     const orderId = req.params.orderId;
     Order.findById(orderId)
